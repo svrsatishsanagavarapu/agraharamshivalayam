@@ -1,122 +1,78 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sri Agraharam Shivaalayam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-body {
-  margin: 0;
-  font-family: system-ui, Arial, sans-serif;
-  background: #faf7f2;
-  color: #333;
-}
+<body>
 
-/* NAV */
-nav {
-  background: #4b2c20;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 12px;
-}
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Gallery</a>
+  <a href="#">Poojas</a>
+  <a href="#">Contact</a>
+</nav>
 
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 14px;
-  font-weight: 600;
-}
+<header class="hero">
+  <h1>🕉️ Sri Agraharam Shivaalayam 🕉️</h1>
+  <p>Agraharam Village | Sacred Abode of Lord Shiva</p>
 
-/* HERO */
-.hero {
-  background: linear-gradient(#3e2723, #5d4037);
-  color: white;
-  text-align: center;
-  padding: 30px 15px;
-}
+  <div class="image-row">
+    <img src="images/shiva-lingam-main.jpg" alt="Shiva Lingam">
+    <img src="images/shiva-abhishekam.jpg" alt="Shiva Abhishekam">
+    <img src="images/nandi.jpg" alt="Nandi Devaru">
+  </div>
+</header>
 
-.hero h1 {
-  font-size: 1.8rem;
-}
+<section class="section">
+  <h2>🙏 Temple Deities 🙏</h2>
 
-/* IMAGE ROW */
-.image-row {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
-  overflow-x: auto;
-}
+  <div class="deities">
+    <div class="card">
+      <img src="images/subrahmanya.jpg">
+      <h3>Subrahmanyeswara Swamy</h3>
+    </div>
 
-.image-row img {
-  width: 220px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 12px;
-}
+    <div class="card">
+      <img src="images/shani-bhagavan.jpg">
+      <h3>Shani Bhagavan</h3>
+    </div>
 
-/* SECTIONS */
-.section {
-  padding: 30px 15px;
-  text-align: center;
-}
+    <div class="card">
+      <img src="images/saraswathi-ammavaru.jpg">
+      <h3>Saraswathi Ammavaru</h3>
+    </div>
 
-.section.light {
-  background: #fff3e0;
-}
+    <div class="card">
+      <img src="images/navagrahalu.jpg">
+      <h3>Nava Grahalu</h3>
+    </div>
+  </div>
+</section>
 
-.section h2 {
-  color: #7b1e1e;
-}
+<section class="section light">
+  <h2>🧘‍♂️ Temple Purohits</h2>
+  <p>
+    S. Vijaya Bhaskar Sastry<br>
+    I. Suresh Kumar
+  </p>
+</section>
 
-/* DEITIES */
-.deities {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
-  margin-top: 20px;
-}
+<section class="section">
+  <h2>🪔 Poojas Performed</h2>
+  <ul class="list">
+    <li>Astothrams</li>
+    <li>Shani Pooja</li>
+    <li>Rahu Kethu Pooja</li>
+  </ul>
+</section>
 
-.card {
-  background: white;
-  padding: 15px;
-  border-radius: 14px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
+<footer>
+  © 2025 Sri Agraharam Shivaalayam
+</footer>
 
-.card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-/* LIST */
-.list {
-  list-style: none;
-  padding: 0;
-}
-
-.list li {
-  margin: 8px 0;
-}
-
-/* FOOTER */
-footer {
-  background: #3e2723;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-}
-
-/* DESKTOP */
-@media (min-width: 900px) {
-  .deities {
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1100px;
-    margin: auto;
-  }
-
-  .image-row {
-    justify-content: center;
-    overflow-x: hidden;
-  }
-}
+</body>
+</html>
