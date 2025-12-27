@@ -11,14 +11,49 @@
   <a href="poojas.html">Poojas</a>
 </nav>
 
+
 <section class="section">
   <h2>🪔 Poojas Performed</h2>
-  <ul class="list">
-    <li>Rudrabishekam</li>
-    <li>Shani Pooja</li>
-    <li>Rahu Ketu Pooja</li>
-  </ul>
-</section>
 
+  <div class="pooja-card">
+    <h3>🌸 Rudrabhishekam</h3>
+    <p>
+      Special rudrabhishekam with chanting of 11 rudras of Lord Shiva
+      performed for peace, health and prosperity.
+    </p>
+  </div>
+
+  <div class="pooja-card">
+    <h3>🪐 Shani Pooja</h3>
+    <p>
+      Dedicated pooja to Lord Shani Bhagavan to reduce
+      Shani dosha and bring stability in life.
+    </p>
+  </div>
+
+  <div class="pooja-card">
+    <h3>☯️ Rahu Ketu Pooja</h3>
+    <p>
+      Performed to overcome Rahu–Ketu doshas related to
+      marriage, career and health.
+    </p>
+  </div>
+
+<div class="pooja-card">
+    <h3>☯️ Angaraka Pooja</h3>
+    <p>
+      Performed to overcome angaraka doshas related to
+      marriage, career and health.
+    </p>
+  </div>
+
+<div class="pooja-card">
+    <h3>☯️ Santhana soubhagya Pooja</h3>
+    <p>
+      Performed to overcome santhana doshas related to
+      marriage to give birth to children.
+    </p>
+  </div>
+</section>
 </body>
 </html>
