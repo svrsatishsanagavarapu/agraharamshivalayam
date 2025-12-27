@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poojas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="poojas.html">Poojas</a>
+</nav>
+
+<section class="section">
+  <h2>🪔 Poojas Performed</h2>
+  <ul class="list">
+    <li>Rudrabishekam</li>
+    <li>Shani Pooja</li>
+    <li>Rahu Ketu Pooja</li>
+  </ul>
+</section>
+
+</body>
+</html>
