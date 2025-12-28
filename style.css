@@ -511,3 +511,36 @@ nav ul li a:hover::after {
   opacity: 0.8;
   margin-top: 10px;
 }
+
+/* TEMPLE PUROHITS SECTION */
+#purohits {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+#purohits h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #5b2c1d;
+}
+
+.purohit-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 12px;
+  margin: 0 auto;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.purohit-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.purohit-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
