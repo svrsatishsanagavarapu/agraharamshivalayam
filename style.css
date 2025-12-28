@@ -584,3 +584,9 @@ nav ul li a:hover::after {
   width: auto;
   object-fit: contain;  /* keeps full image without crop */
 }
+
+@media (max-width: 768px) {
+  .header-image img {
+    max-height: 360px;
+  }
+}
