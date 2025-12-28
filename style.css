@@ -317,3 +317,34 @@ nav ul li a {
     font-size: 15px;
   }
 }
+/* REDUCE HEADER HEIGHT */
+.hero {
+  padding: 12px 10px;   /* reduced from big padding */
+}
+
+.main-title {
+  margin: 6px 0;
+}
+
+.location {
+  margin-bottom: 8px;
+}
+
+/* Reduce space around header image */
+.header-image {
+  margin-top: 8px;
+}
+
+.header-image img {
+  max-width: 85%;   /* slightly smaller image */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 10px 8px;
+  }
+
+  .main-title {
+    font-size: 19px;
+  }
+}
