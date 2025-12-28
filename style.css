@@ -555,3 +555,14 @@ nav ul li a:hover::after {
   border-radius: 12px;
   object-fit: cover;
 }
+/* FORCE AUTO-RESIZE FOR PUROHIT IMAGE */
+#purohits img {
+  width: 100%;
+  max-width: 320px;     /* controls width */
+  max-height: 420px;    /* controls height */
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  object-fit: contain;  /* no distortion */
+  border-radius: 12px;
+}
