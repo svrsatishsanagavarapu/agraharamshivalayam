@@ -377,3 +377,18 @@ nav ul li a {
     font-size: 18px;
   }
 }
+
+/* FORCE SINGLE LINE - MOBILE SAFE */
+.one-line {
+  display: block;
+  white-space: nowrap;
+  font-size: 17px;   /* reduced to fit mobile */
+  margin-bottom: 6px;
+}
+
+/* Slightly bigger on tablets/desktops */
+@media (min-width: 768px) {
+  .one-line {
+    font-size: 22px;
+  }
+}
