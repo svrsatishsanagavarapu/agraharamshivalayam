@@ -221,3 +221,12 @@ header img {
 }
 
 
+.main-title {
+  text-align: center;
+  line-height: 1.3;
+}
+
+.main-title .sametha {
+  white-space: nowrap;   /* THIS keeps it in one line */
+  display: inline-block;
+}
