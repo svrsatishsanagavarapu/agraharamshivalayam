@@ -6,6 +6,13 @@ body {
   background: linear-gradient(to bottom, #e6f4ff, #ffffff);
   color: #1f2933;
 }
+
+section {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
 /* NAV */
 nav {
   background: #4b2c20;
@@ -196,6 +203,7 @@ footer {
   font-size: 15px;
   line-height: 1.6;
 }
+
 
 
 
