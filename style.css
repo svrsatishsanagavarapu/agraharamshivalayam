@@ -3,12 +3,9 @@
 }
 
 body {
-  margin: 0;
-  font-family: system-ui, Arial, sans-serif;
-  background: #faf7f2;
-  color: #333;
+  background: linear-gradient(to bottom, #e6f4ff, #ffffff);
+  color: #1f2933;
 }
-
 /* NAV */
 nav {
   background: #4b2c20;
@@ -199,5 +196,6 @@ footer {
   font-size: 15px;
   line-height: 1.6;
 }
+
 
 
