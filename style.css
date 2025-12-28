@@ -230,3 +230,15 @@ header img {
   white-space: nowrap;   /* THIS keeps it in one line */
   display: inline-block;
 }
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.header-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+}
