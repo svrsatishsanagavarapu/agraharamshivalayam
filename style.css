@@ -411,4 +411,36 @@ nav ul li a {
   }
 }
 
+/* TEMPLE IDOLS – ENGLISH POLISH */
+#idols {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+#idols h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #5b2c1d;
+}
+
+.idol-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 12px;
+  margin: 15px auto;
+  max-width: 360px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.idol-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.idol-card p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
 
