@@ -357,3 +357,23 @@ nav ul li a {
   right: 15px;
   z-index: 999;
 }
+
+/* Keep Bramaramba Sametha in one line */
+.one-line {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 22px;
+}
+
+/* Mobile tuning to avoid overflow */
+@media (max-width: 768px) {
+  .one-line {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .one-line {
+    font-size: 18px;
+  }
+}
