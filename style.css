@@ -394,17 +394,18 @@ nav ul li a {
 }
 
 /* UNIFIED TITLE FONT SIZE */
+
 .main-title {
-  font-size: 22px;        /* same size for all lines */
-  line-height: 1.35;
+  font-size: 24px;      /* increased slightly */
+  line-height: 1.25;    /* tighter for better look */
   text-align: center;
-  margin: 10px 0;
+  margin: 12px 0;
   font-weight: 700;
 }
-
 /* Tablet & Desktop - slightly bigger */
 @media (min-width: 768px) {
   .main-title {
     font-size: 28px;
   }
 }
+
