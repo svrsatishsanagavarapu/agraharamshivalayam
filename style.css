@@ -450,3 +450,28 @@ nav ul li a {
   border: 3px solid rgba(255, 255, 255, 0.6);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
+/* MENU HOVER EFFECT – ENGLISH POLISH */
+nav ul li a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* underline effect */
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #ffd27d;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd27d;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
