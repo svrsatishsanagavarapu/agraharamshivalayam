@@ -577,3 +577,10 @@ nav ul li a:hover::after {
   font-weight: 600;
   margin: 6px 0;
 }
+
+/* HEADER IMAGE HEIGHT CONTROL */
+.header-image img {
+  max-height: 420px;     /* ⬅️ reduce image length */
+  width: auto;
+  object-fit: contain;  /* keeps full image without crop */
+}
