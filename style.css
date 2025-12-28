@@ -348,3 +348,12 @@ nav ul li a {
     font-size: 19px;
   }
 }
+/* FIX WHATSAPP OVERLAP */
+.whatsapp,
+.whatsapp-float,
+.whatsapp-button,
+.float {
+  bottom: 90px !important;   /* pushes it up */
+  right: 15px;
+  z-index: 999;
+}
