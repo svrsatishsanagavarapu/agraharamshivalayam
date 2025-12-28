@@ -566,3 +566,14 @@ nav ul li a:hover::after {
   object-fit: contain;  /* no distortion */
   border-radius: 12px;
 }
+
+/* PUROHIT NAMES STYLE */
+.purohit-names {
+  margin-top: 12px;
+}
+
+.purohit-names p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 6px 0;
+}
