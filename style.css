@@ -825,3 +825,36 @@ img.temple-image {
 .hero-text {
   opacity: 1 !important;
 }
+
+/* ===== CLEAN HERO DESIGN ===== */
+
+.clean-hero {
+  background-color: #f6f1e7; /* soft cream */
+  padding: 25px 15px;
+  text-align: center;
+}
+
+.clean-hero h1 {
+  color: #3b1f0f;
+  font-size: 26px;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+.clean-hero .location {
+  color: #5a3a1f;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.om-icon {
+  width: 48px;
+  margin-bottom: 8px;
+}
+
+.hero-image img {
+  max-height: 300px;
+  width: auto;
+  border-radius: 18px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
