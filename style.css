@@ -707,3 +707,6 @@ img.temple-image {
 .hero {
   background-color: #f6f1e7 !important;
 }
+.hero * {
+  opacity: 1 !important;
+}
