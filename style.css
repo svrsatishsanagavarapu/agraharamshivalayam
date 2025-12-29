@@ -775,3 +775,24 @@ img.temple-image {
 .light-hero * {
   opacity: 1 !important;
 }
+
+/* ===== HERO TEXT VISIBILITY FIX (FINAL) ===== */
+
+/* Light background box behind text */
+.light-box {
+  background: rgba(255, 248, 235, 0.95); /* soft cream */
+  padding: 20px 15px;
+  border-radius: 14px;
+  max-width: 95%;
+  margin: 0 auto 20px;
+}
+
+/* Force readable text */
+.light-box h1,
+.light-box h2,
+.light-box h3,
+.light-box p {
+  color: #2c1a10 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
