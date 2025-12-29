@@ -796,3 +796,32 @@ img.temple-image {
   opacity: 1 !important;
   text-shadow: none !important;
 }
+/* ===== FINAL VISIBILITY FIX (NO HTML CHANGE) ===== */
+
+/* Hero background stays dark */
+.hero {
+  background: linear-gradient(to bottom, #2b160c, #4a2a12) !important;
+}
+
+/* FORCE hero text to be visible */
+.hero h1,
+.hero h2,
+.hero h3,
+.hero p,
+.hero span {
+  color: #ffffff !important;   /* pure white */
+  opacity: 1 !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+}
+
+/* Location text slightly softer */
+.hero p {
+  color: #f3e7d3 !important;
+}
+
+/* Remove ANY fade */
+.hero *,
+.hero-content,
+.hero-text {
+  opacity: 1 !important;
+}
