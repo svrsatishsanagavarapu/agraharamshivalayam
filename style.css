@@ -672,7 +672,7 @@ nav ul li a:hover::after {
 .hero img,
 .main-image img,
 img.temple-image {
-  max-height: 420px;   /* decrease more if needed */
+  max-height: 320px;   /* decrease more if needed */
   width: auto;
   object-fit: contain;
   display: block;
@@ -687,3 +687,4 @@ img.temple-image {
     max-height: 300px;
   }
 }
+
