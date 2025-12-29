@@ -743,3 +743,35 @@ img.temple-image {
 .hero-text {
   opacity: 1 !important;
 }
+
+/* ===== FINAL HERO FIX ===== */
+
+/* Force light background */
+.light-hero {
+  background-color: #f6f1e7 !important;
+}
+
+/* Force text to be clearly visible */
+.light-hero h1,
+.light-hero h2,
+.light-hero h3,
+.light-hero p {
+  color: #2c1a10 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
+/* Kill ALL overlays & dark layers */
+.light-hero::before,
+.light-hero::after,
+.light-hero .overlay,
+.light-hero .hero-overlay {
+  display: none !important;
+  background: none !important;
+  opacity: 0 !important;
+}
+
+/* Ensure nothing inside is faded */
+.light-hero * {
+  opacity: 1 !important;
+}
