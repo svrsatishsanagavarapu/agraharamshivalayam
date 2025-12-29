@@ -688,3 +688,17 @@ img.temple-image {
   }
 }
 
+
+/* Override hero background color */
+.hero,
+.hero-section,
+.top-section {
+  background-color: #f6f1e7; /* soft cream */
+}
+
+/* Ensure text looks good on light background */
+.hero h1,
+.hero h2,
+.hero p {
+  color: #4a2a12;
+}
