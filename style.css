@@ -688,3 +688,22 @@ img.temple-image {
   }
 }
 
+/* FIX: Make hero text clearly visible */
+.hero h1,
+.hero h2,
+.hero h3,
+.hero p {
+  color: #4a2a12 !important; /* deep temple brown */
+  opacity: 1 !important;
+}
+
+/* Remove dark overlay if any */
+.hero::before,
+.hero::after {
+  display: none !important;
+}
+
+/* Ensure hero background is light */
+.hero {
+  background-color: #f6f1e7 !important;
+}
