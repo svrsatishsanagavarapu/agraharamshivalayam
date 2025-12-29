@@ -702,3 +702,9 @@ img.temple-image {
 .hero p {
   color: #4a2a12;
 }
+
+.hero,
+.hero-section,
+.top-section {
+  background-color: #f6f1e7 !important;
+}
