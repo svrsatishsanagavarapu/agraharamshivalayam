@@ -710,3 +710,36 @@ img.temple-image {
 .hero * {
   opacity: 1 !important;
 }
+/* ===== HERO SECTION FULL FIX ===== */
+
+/* Force hero background */
+.hero {
+  background-color: #f6f1e7 !important;
+}
+
+/* REMOVE any dark overlay layer */
+.hero .overlay,
+.hero .hero-overlay,
+.hero::before,
+.hero::after {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+/* Force text visibility */
+.hero h1,
+.hero h2,
+.hero h3,
+.hero p,
+.hero span {
+  color: #3b1f0f !important; /* dark readable brown */
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Remove opacity from any inner containers */
+.hero *,
+.hero-content,
+.hero-text {
+  opacity: 1 !important;
+}
