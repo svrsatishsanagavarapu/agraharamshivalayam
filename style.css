@@ -667,3 +667,23 @@ nav ul li a:hover::after {
 .event-banner marquee {
   width: 100%;
 }
+
+/* Reduce main temple image height */
+.hero img,
+.main-image img,
+img.temple-image {
+  max-height: 420px;   /* decrease more if needed */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Extra reduction for mobile screens */
+@media (max-width: 768px) {
+  .hero img,
+  .main-image img,
+  img.temple-image {
+    max-height: 300px;
+  }
+}
