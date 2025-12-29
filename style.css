@@ -614,3 +614,42 @@ nav ul li a:hover::after {
 .map-button:hover {
   background-color: #1a5dc9;
 }
+
+/* Donation Section */
+.donation-section {
+  padding: 40px 20px;
+  background-color: #f9f6f2;
+  text-align: center;
+}
+
+.donation-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #5b2c06;
+}
+
+.donation-text {
+  max-width: 800px;
+  margin: 0 auto 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.donation-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 450px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.donation-box h3 {
+  color: #7a3e0e;
+  margin-bottom: 10px;
+}
+
+.note {
+  font-size: 14px;
+  color: #666;
+}
