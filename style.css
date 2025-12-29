@@ -590,3 +590,27 @@ nav ul li a:hover::after {
     max-height: 360px;
   }
 }
+.map-section {
+  text-align: center;
+  padding: 30px 15px;
+  background: #f9f9f9;
+}
+
+.map-section h2 {
+  margin-bottom: 10px;
+}
+
+.map-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #2c7be5;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.map-button:hover {
+  background-color: #1a5dc9;
+}
